@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id":1,
+      "name": "Nolan S.",
+      "last_timestamp": 1588560375940,
+      "customer_QR": "qr code data ",
+      "total_rentals": 5,
+      "feedback":"great product would recommend!"
+    }
+  ]
+}

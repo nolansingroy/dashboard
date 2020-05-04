@@ -23,9 +23,25 @@
 </div>
 
 
-
+<br>
 <mat-divider></mat-divider>
+<h2>Latest Customer Transactions</h2>
+<div *ngFor="let user of users$ | async">
+  <mat-card>
+  <h3> {{user.name}}</h3>
+<p>Customer id: {{user.id}}</p>
+<!--<p>Description: {{user.description}}</p>-->
+<p>Container_QR:{{user.customer_QR}}</p>
+<p>total rentals: {{user.total_rentals}}</p>
+<p>last checkout timestamp: {{user.last_timestamp | date: 'medium'}}</p>
+<p>feedback: {{user.feedback}}</p>
 
-<div>
-  <div>Table Chart</div>
+</mat-card>
+<br>
 </div>
+
+<br>
+
+
+
+

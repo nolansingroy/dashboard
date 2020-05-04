@@ -9,9 +9,9 @@ import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatCardModule} from '@angular/material/card';
 import { MatDividerModule} from '@angular/material/divider';
 import {MatTableModule} from '@angular/material/table';
-import {MatPaginatorModule}from '@angular/material/paginator';
+import {MatPaginatorModule} from '@angular/material/paginator';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     DefaultComponent,
@@ -28,7 +28,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatCardModule,
     MatPaginatorModule,
     MatTableModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    HttpClientModule
+
+
   ]
 })
 export class DefaultModule { }

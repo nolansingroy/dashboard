@@ -16,6 +16,7 @@ import { WidgetsComponent } from './widgets/widgets.component';
 
 import { AreaComponent } from './widgets/area/area.component';
 import { CardComponent } from './widgets/card/card.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -41,7 +42,8 @@ import { CardComponent } from './widgets/card/card.component';
     MatMenuModule,
     MatListModule,
     RouterModule,
-    HighchartsChartModule
+    HighchartsChartModule,
+    HttpClientModule
   ],
   exports: [
     HeaderComponent,
